@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body {
+  background-color: E7E0C9;
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+  line-height: normal;
+}
+
+h1 {
+  color: 11324D;
+  font-size: x-large;
+  line-height: normal;
+}
+
+h2 {
+  color: 11324D;
+  font-size: larger;
+  line-height: normal;
+}
+
+a{
+  color: 6B7AA1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: 11324D;
+}
+
+.container {
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  width: auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  border:thin ;
+  box-shadow: grey;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+img {
+  width: 150px;
+  border-radius: 70px;
+}
+
+p {
+  font-size: medium;
+  color: 11324D;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.blue-btn {
+  background-color: 6B7AA1;
+  color: white;
+  font-size: small;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.blue-btn:hover {
+  background-color: 11324D;
+  color: whitesmoke;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: xx-large;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
